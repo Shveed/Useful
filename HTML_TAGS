@@ -1,0 +1,33 @@
+"<br />" - Новая строка
+<h1>(1...6) - заголовок
+<p align="right/left/center"> - Абзац(справа, слева)
+<em> - прописные буквы
+<u> - курсив
+<strong> - жирный
+<strike> - зачёркнутый
+<abbr title="Hyper Text Mark-up Language">HTML</abbr> - аббривиатура 
+<address> - адрес
+<small> - уменьшение текста
+<big> - увеличенный текст
+<pre> - учитывает ВСЕ пробелы
+<blockquote cite="Источник(ссылка)"> - корректирование текста под цитату
+<q cite="Источник"> - цитата(до и после прямой речи)
+<hr /> - горизонтальная линия поперёк всей страницы
+<li> - элемент пронумерованного списка
+<ol type="I" start="4" reversed="reversed">(ordered list) - создание пронумерованного списка(type - вид, start - с какого начать номирование, 
+reversed - по убыванию
+I - Римские большие, i - римские мал., A - загл. буквы, а - малые буквы, 1 - арабские 
+<ul type="disc, circle, square">(unordered list) - список со значками
+<dir type=" "> - список(имеет больший отступ) - УСТРАРЕЛ
+<a href="ССЫЛКА" target="_blank, _self" title="Переход на Google"> - перенаправляет на страницу, title - подсказка
+_blank - открыть в новой вкладке
+_self - по умолчанию(в том же окне)
+# - перезагрузки не будет
+<a href="#top">Наверх</a>﻿
+<a href="mailto:adress@mail.ru">Email</a> - отправить письмо по адрессу
+<img src="" width="100px" height="100px" title="TEXT" alt="Текст для замены картинки" /> - подсключение изображения
+<meta http_equiv="Content-Type" content="text/html; charset=UTF-8" /> - стандартная кодировка
+<meta name="description" content="TEXT" /> - описание сайта при поиске(text <= 200sym)
+<meta name="keywords" content="TEXT" /> - теги для сайта(поиск по тегам) через запятую
+<meta href="" rel="stylesheet" type="text/css" /> - подключение стилей(css)
+<script src=""> - подключение библиотек/файлов и т.д.(например, JS)
