@@ -31,3 +31,13 @@ _self - по умолчанию(в том же окне)
 <meta name="keywords" content="TEXT" /> - теги для сайта(поиск по тегам) через запятую
 <meta href="" rel="stylesheet" type="text/css" /> - подключение стилей(css)
 <script src=""> - подключение библиотек/файлов и т.д.(например, JS)
+<div> - создание блока
+<span> - изменение стиля
+<form name="" action="" method="" > - создание формы
+<input type="text" value="Enter name..." placeholder="Enter name..."/ name="" title=""> - ввод информации(name - куда записывать, value - Текст в строке, 
+														placeholder - прозрачный текст в строке, 
+														title - подсказка, maxlength="" - максимальная длина)
+Для type: text - обычный текст, date - дата, datetime-local - дата и время, week - день и неделя, url - запрос сайта,
+			 tel - тел.номер, range - ползунок количества, radio - чекбокс выбора(только одно значение),
+			password - ввод пароля, number - ввод номера со стрелками, image - ,
+			file - предоставление выбора файла, color - выбор цвета, button - кнопка для JS, submit - кнопка для PHP, reset - обнуляет все строки поиска)
